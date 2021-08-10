@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <link rel="icon" href="Quizwizz.jpg">
+        <title>Quizwizz</title>
+    </head>
+    <body background="Quizwizz background.jfif">
+        <style>
+            table, tr, td {
+                border:1px solid white;
+            }
+        </style>
+        <div class="container">
+            <font face="Bradley Hand ITC" size="20" color="white"><p align="center">Quizwizz</p></font>
+            <br>
+            <br>
+            <br>
+            <font face="Calibri">
+                <p align="center">Name : <input name="name" id="name"></p>
+                <p align="center">Date of filling this form : <input type="date" name="date" id="date"></p>
+            </font>
+            <br>
+            <br>
+            <br>
+            <h3>
+                <table border="2" bordercolor="white" align="center">
+                    <tr>
+                        <td height=50 px width=75 px align="center">1.</td>
+                        <td height=50 px width=450 px align="center">Which among the following is the best variety of coal?</td>
+                    </tr>
+                    <tr>
+                        <td height=200 px width=75 px></td>
+                        <td height=200 px width=400 px align="justify">
+                            <p><input type="radio" name="q1">(A) Lignite</p>
+                            <p><input type="radio" name="q1" id="a1">(B) Anthracite</p>
+                            <p><input type="radio" name="q1">(C) Peat</p>
+                            <p><input type="radio" name="q1">(D) Bituminous</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=50 px width=75 px align="center">2.</td>
+                        <td height=100 px width=450 px align="center">If a car is moving with a speed of 20 km/h for a distance of 40 km, then what is the time taken by the car to cover that distance?</td>
+                    </tr>
+                    <tr>
+                        <td height=200 px width=75 px></td>
+                        <td height=200 px width=400 px align="justify">
+                            <p><input type="radio" name="q2">(A) 4 hours</p>
+                            <p><input type="radio" name="q2">(B) 0.2 hours</p>
+                            <p><input type="radio" name="q2" id="a2">(C) 2 hours</p>
+                            <p><input type="radio" name="q2">(D) 1 hour</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=50 px width=75 px align="center">3.</td>
+                        <td height=50 px width=520 px align="center">Cellular respiration takes place in : </td>
+                    </tr>
+                    <tr>
+                        <td height=200 px width=75 px></td>
+                        <td height=200 px width=400 px align="justify">
+                            <p><input type="radio" name="q3">(A) Nucleus</p>
+                            <p><input type="radio" name="q3">(B) Nerve cell</p>
+                            <p><input type="radio" name="q3">(C) Nephron</p>
+                            <p><input type="radio" name="q3" id="a3">(D) Mitochondria</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=50 px width=75 px align="center">4.</td>
+                        <td height=50 px width=520 px align="center">Who was also known as the "Tiger of Mysore"?</td>
+                    </tr>   
+                    <tr>
+                        <td height=200 px width=75 px></td>
+                        <td height=200 px width=400 px align="justify">
+                            <p><input type="radio" name="q4">(A) Balaji Baji Rao II</p>
+                            <p><input type="radio" name="q4">(B) Muhammad Shah Tugluq</p>
+                            <p><input type="radio" name="q4">(C) Hyder Ali</p>
+                            <p><input type="radio" name="q4" id="a4">(D) Tipu Sultan</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=50 px width=75 px align="center">5.</td>
+                        <td height=50 px width=520 px align="center">Light always travels in a _____________ line.</td>
+                    </tr>
+                    <tr>
+                        <td height=200 px width=75 px></td>
+                        <td height=200 px width=400 px align="justify">
+                            <p><input type="radio" name="q5" id="a5">(A) Straight</p>
+                            <p><input type="radio" name="q5">(B) Parabola</p>
+                            <p><input type="radio" name="q5">(C) Haphazard</p>
+                            <p><input type="radio" name="q5">(D) Hyperbola</p>
+                        </td>
+                    </tr>
+                </table>
+            </h3>
+            <br>
+            <br>
+            <br>
+            <p align="center"><button type="submit" id="submitQuiz">Submit</button></p>
+        </div>
+        <script src="start.js"></script>
+    </body>
+</html>
